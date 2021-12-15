@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title> Ready Recipes  </title>
+    
+    
+    <!-- main css -->
+    <link rel="stylesheet" href="MainCSS.css" />
+  </head>
+  <body>
+    <!-- nav  -->
+    <nav class="navbar">
+      <div class="nav-center">
+        <div class="nav-header">
+          <!-- <a href="Index.html" class="nav-logo">
+            <img src="recipe.jpg" alt="Ready recipes" />
+          </a> -->
+          <button class="nav-btn btn">
+            <i class="fas fa-align-justify"></i>
+          </button>
+        </div>
+        <div class="nav-links">
+          <a href="Index.html" class="nav-link"> Home </a>
+          <a href="About.html" class="nav-link"> About Me </a>
+          <a href="Recipes.html" class="nav-link"> Recipes </a>
+          <a href="Tags.html" class="nav-link"> Instructions </a>
+
+          <div class="nav-link contact-link">
+            <a href="Contact.html" class="btn"> Contact Me </a>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <!-- end of nav -->
+    <!-- main -->
+    <main class="page">
+      <!-- header -->
+      <header class="hero">
+        <div class="hero-container">
+          <div class="hero-text">
+            <h1>Ready Recipes</h1>
+            <h4>Quick recipes, ready for you! </h4>
+          </div>
+        </div>
+      </header>
+      <!-- end of header -->
+      <section class="recipes-container">
+        <!-- tag container -->
+        <div class="tags-container">
+          <h4>Recipes</h4>
+          <div class="tags-list">
+            <a href="Recipes.html">Breakfast (1)</a>
+            <a href="Recipes.html">Lunch (2)</a>
+            <a href="Recipes.html">Dinner (3)</a>
+            <a href="Recipes.html">Snacks (4)</a>
+          </div>
+        </div>
+        <!-- end of tag container -->
+
+        <!-- recipes list -->
+        <div class="recipes-list">
+          <!-- single recipe -->
+          <a href="Recipes.html" class="recipe">
+            <img
+              src="biscuits.jpg"
+              class="img recipe-img"
+              alt=""
+            />
+            <h5>Biscuits</h5>
+            <p>Prep : 5min | Cook : 30min</p>
+          </a>
+          <!-- end of single recipe -->
+          <!-- single recipe -->
+          <a href="Recipes.html" class="recipe">
+            <img
+              src="burger.jpg"
+              class="img recipe-img"
+              alt=""
+            />
+            <h5>Burger</h5>
+            <p>Prep : 30min | Cook : 45min</p>
+          </a>
+          <!-- end of single recipe -->
+          <!-- single recipe -->
+          <a href="Recipes.html" class="recipe">
+            <img
+              src="pizzarolls.jpg"
+              class="img recipe-img"
+              alt=""
+            />
+            <h5>Pizza Rolls</h5>
+            <p>Prep : 5min | Cook : 25min</p>
+          </a>
+          <!-- end of single recipe -->
+        </div>
+        <!-- end of recipes list -->
+      </section>
+    </main>
+    <!-- end of main -->
+    <!-- footer -->
+    <footer class="page-footer">
+      <p>
+        &copy; <span id="date"></span>
+        <span class="footer-logo">Ready Recipes</span> created by Malik D. Williams
+      </p>
+    </footer>
+    <script src="MainJS.js"></script>
+  </body>
+</html>
